@@ -1,0 +1,17 @@
+(a) Difference Engine
+
+(b) Relais
+
+(c) EPROM
+
+(d) Core (wie in Quad-Core-CPU)
+
+(e) ALU
+
+(f) ISA
+
+(g) Benchmark
+
+(h) Turing-Maschine
+
+(i) MSIL/CIL

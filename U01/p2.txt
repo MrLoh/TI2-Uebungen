@@ -1,0 +1,48 @@
+(a) Mit dem von-Neumann-Rechnermodell wurde erstmalig das Konzept für einen echten 'general-purpose Computer' vorgeschlagen. Was ist darunter zu verstehen?
+
+Ein general-purpose-Computer ist nicht auf die Lösung eines spezifischen Systems zu geschnitten. Im von-Neumann-Modell können Programme zur Lösung beliebiger Probleme im Speicher als Programme gespeichert werden.
+
+
+(b) 'Programme sind auch nur Daten' ist eine grundlegende und eng mit dem von-Neumann-Rechnermodell verbundene Sichtweise. Was ist darunter zu verstehen?
+
+Programmcode ist nichts anderes als Text, wird also auch als Bitsequenz gespeichert, genau wie alles andere. Deswegen wird in der von-Neumann-Architektur Programmcode nicht getrennt von Daten gespeichert, sondern im selben Modul.
+
+
+(c) Das von-Neumann-Rechnermodell setzt sich aus drei Hauptbestandteilen zusammen. Welche Bestandteile sind dies und welchem Zweck dienen sie?
+
+Ein von-Neumann-Rechner besteht aus Prozessor, Speicher und In/Out System. Der Prozessor besteht aus Steuerwerk und Rechenwerk und führt die Operationen aus. Im Speicher sind Daten und Programmcode gespeichert. I/O-Systeme sind Schnittstellen zu geräten, welche Eingabe und oder Ausgabe erlauben, wie Tastatur, Bildschirm oder Drucker. Sowohl Speicher als auch I/O-Systeme sind über das Bus-System mit dem Prozessor verbunden.
+
+
+(d) Im von-Neumann-Rechnermodell ist der Datenprozessor ein Bestandteil der CPU. Welche Aufgaben werden von welchen Komponenten dieses Prozessors erfüllt?
+
+Nachdem die Befehle in der Interpretationsphase vom Steuerwerk interpretiert wurden, werden sie in der Ausführungsphase vom Rechenwerk ausgeführt. Dabei werden Speicherinhalte der im Befehl angegebenen Speicheraddresse gelesen und als Daten interpretiert und verarbietet und eventuell zurückgeschrieben.
+
+
+(e) Im von-Neumann-Rechnermodell ist der Befehlsprozessor ein Bestandteil der CPU. Welche Aufgaben werden von welchen Komponenten dieses Prozessors erfüllt?
+
+Befehle liegen im Speicher eines von-Neumann-Rechners und werden nacheinander — durch den Programmzähler markiert — während der Interpretationsphase vom Steuerwerk gelesen, dekodiert und interpretiert. Die Reihenfolge wird dabei durch den Programmzähler festgehalten.
+
+
+(f) Das von-Neumann-Rechnermodell unterscheidet zwischen Daten- und Adressbus. Warum macht das Sinn? Es ergeben sich auch Zusammenhänge zwischen der Größe (in Bits) des MAR, des MBR, des Speichers, einer Speicherzelle sowie der Speicherzellenanzahl. Welche?
+
+Der Adressbus überträgt die Speicheraddressen und braucht daher nur eine geringere Bandbreite im Vergleich zum Datenbus, welcher parallel Daten überträgt. Dadurch kann der negative Effekt des von-Neumann-Flaschenhals verringert werden. Außerdem können auf diese Weise Adressen und Daten nicht verwechselt werden.
+
+
+(g) Die Arbeitsweise eines von-Neumann-Rechners wird durch die Bezeichnung SISD allgemein charakterisiert. Welches Prinzip verbirgt sich hinter dieser Abkürzung?
+
+Das SISD (Single Instruction Single Data) Prinzip bedeuet, dass die CPU eines von-Neumann-Rechners zu einem Zeitpunkt jeweils nur einen Befehl ausführen kann, welcher nicht mehr als einen Operanden verarbeitet.
+
+
+(h) Bahnbrechend neu am von-Neumann-Rechnermodell war das Konzept einer quasi universellen Programmierbarkeit. Erörtern Sie in diesem Zusammenhang die Begriffe Maschinencode, Assemblersprachen sowie Ein- und Mehr-Adress-Befehle.
+
+Vor dem von-Neumann-Rechnermodell waren die Programme entweder fest in die Hardware integriert, oder mussten mühsam per Lochkarte eingelesen werden. Bei dem von-Neumann-Rechnermodell war es jetzt möglich, Programme, wie Daten, im Speicher abzulegen, sie konnten damit einfacher geschrieben werden und waren schneller veränderbar.Diese Technik machte wiederum Assembler möglich, Computerprogramme, die in der Lage waren Daten, die in einer sogenannten Assemblersprache geschrieben waren eins zu eins in ausführbaren Maschinencode zu übersetzen. Das machte das Programmieren wesentlich weniger umständlich.
+
+
+(i) Charakteristisch für das von-Neumann-Rechnermodell ist ein Zwei-Phasen-Konzept der Befehlsverarbeitung. Welches Problem wird damit auf welche Weise gelöst?
+
+In der ersten Phase kümmert sich das Steuerwerk um Decodierung und Interpretation des Befehlswort und legt die entsprechenden Daten in Registern bereit. In der zweiten Phase wird der Befehl durchgeführt und die bearbeiteten Daten zurückgeschrieben. Der entscheidende Vorteil ist der streng sequentielle Ablauf einer Von-Neumann-Architektur.
+
+
+(j) Die Architektur eines klassischen von-Neumann-Rechners führte schon bald zu einem gewichtigen Problem, dem von-Neumannschen 'Flaschenhals'. Was ist darunter zu verstehen und wie versuchte man später dieses Problem zunächst zu umgehen?
+
+Der besagte Flaschenhals ist der Engpass zwischen Prozessor und Speicher. Weil der Prozessor in der Lage ist Daten schneller zu verarbeiten, als durch die Prozessor-Speicher-Schnittstelle nachgereicht werden können, wird bei wenig Operationen auf großen Datenmengen die Leistung stark limitiert. Das Problem kann gemildert werden durch ein Speicher-Cache zwischen CPU und Hauptspeicher, Sprungvorhersage-Algorithmen, oder einem CPU-internen Speicherstack.

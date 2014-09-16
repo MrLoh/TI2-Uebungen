@@ -1,0 +1,23 @@
+(a) Compiler
+Der Compiler wandelt Code einer bestimmten Programmiersprache (source language) in Code in einer anderen Programmiersprache (target language) um. Die target language ist dabei meistens Maschinencode.
+
+(b) Assembler
+Der Assembler kompiliert eine Assembly language in ausführbaren Maschinencode.
+
+(c) Steuerwerk / Control Unit (CU)
+Das Steuerwerk steuert die Befehlsverarbeitung indem es Befehle liest, decodiert und interpretiert. Es führt aber nicht selber die Rechenschritte aus.
+
+(d) Rechenwerk / Execution Unit (EU)
+Das Rechenwerk führt Maschinenbefehle aus. Sein zentraler Bestandteil ist die arithmetisch-logische Einheit (ALU).
+
+(e) Register
+Register sind interner Speicher der CPU, welche die unmittelbaren Operanden und Ergebnisse der Rechnungen speichern.
+
+(f) von-Neumann-Flaschenhals
+Der Von-Neumann-Flaschenhals beschreibt den Sachverhalt, dass die Verbindungssysteme zwischen CPU und Speicher hauptsächlich Geschwindigkeit des Computers beschränken.
+
+(g) Hardware
+Hardware ist der Oberbegriff für die mechanischen und elektronischen Komponenten eines Computers.
+
+(h) Software
+Software ist der Oberbegriff für alle Teile des Computersystems, welche nur als Bits gespeichert sind, also Programmcode und Daten.
