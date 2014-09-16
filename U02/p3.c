@@ -10,6 +10,6 @@ n=4;
 int main(int argc, char const *argv[])
 {
 	int i = gauss(n);
-	printf("Ergebnis %lu \n",l);
+	printf("Ergebnis %u \n",i);
 	return 0;
 }
