@@ -1,17 +1,26 @@
 (a) Difference Engine
+Eine Differenzmaschine ist eine mechanische Rechenmaschiene, welche in der Lage ist polynomiale Funktionen zu berechnen. Sie stellt einen Vorläufer des Computers dar.
 
 (b) Relais
+Relais sind Schalter, welche durch elektrische Spannung betätigt werden können. Sie wurden im ersten Rechner von Zuse verwendet, wo heutzutage Transistoren sind.
 
 (c) EPROM
+Ein EPROM (Erasable Programmable Read-Only Memory) ist ein Speicherbaustein, welcher sich mittels Spannung beschreiben und mittles UV-Licht löschen lässt.
 
 (d) Core (wie in Quad-Core-CPU)
+Ein Prozessorkern besteht aus ALU, CU und Rechenregistern und stellt den zentralen Teil eines Mikroprozessors dar. Moderne CPUs können mehrere parallel laufende Kerne besitzen.
 
 (e) ALU
+Die arithmetisch-logische Einheit ist der Teil des Rechenwerks, welcher Rechenoperationen ausführt. Er kann mindestens ADD, NOT, AND, meistens aber auch noch SUB, MUL, CMP, OR, XOR, SHL, SHR, ROL, ROR und ähnliches.
 
 (f) ISA
+ISA (Industry Standard Architecture) ist ein Bus-Standard mit 16 Bit.
 
 (g) Benchmark
+Ein Benchmark ist ein Vergleichsstandard, zu dem Prozesse und Leistungen verglichen werden können.
 
 (h) Turing-Maschine
+Eine Turing-Maschine ist ein Modell der theoretischen Informatik zur Analyse der Berechenbarkeit von Problemen.
 
 (i) MSIL/CIL
+CIL (Common Intermediate Language) ist eine von Microsoft entwickelte objektorientierte Assembler Sprache, in die alles im .NET Framework übersetzt wird.

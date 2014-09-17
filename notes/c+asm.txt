@@ -1,0 +1,33 @@
+C-FILE (test.c)
+
+#include <stdio.h>
+extern int asmadd(int, int);
+
+int main(int argc, char const *argv[])
+{
+	int res = asmadd(5,4);
+	printf("Ergebnis %i \n",res);
+	return 0;
+}
+
+
+---------------------------------------------------
+ASSEMBLY (add.asm)
+
+global _asmadd
+SECTION .text
+
+_asmadd:
+    MOV RAX, RDI    ;take first val from RDI
+    MOV RBX, RSI    ;take second val from RSI
+    ADD RAX, RBX    ;RAX+RBX
+    RET             ;return val in RAX
+
+
+---------------------------------------------------
+TERMINAL
+
+$ clang -c test.c
+$ nasm -f macho64 add.asm
+$ clang -o test.out add.o test.o
+$ ./test.out
