@@ -1,0 +1,875 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     37677,        865]
+NotebookOptionsPosition[     36264,        811]
+NotebookOutlinePosition[     36616,        827]
+CellTagsIndexPosition[     36573,        824]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"BaseForm", "[", 
+  RowBox[{"100000", ",", "2"}], "]"}]], "Input",
+ CellChangeTimes->{{3.619945330667132*^9, 3.619945360122077*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  InterpretationBox[
+   SubscriptBox["\<\"11000011010100000\"\>", "\<\"2\"\>"],
+   100000,
+   Editable->False],
+  BaseForm[#, 2]& ]], "Output",
+ CellChangeTimes->{{3.6199453407613497`*^9, 3.619945360535408*^9}, 
+   3.6199459695040827`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryResults",
+  DynamicModuleBox[{Typeset`q$$ = "bin to dec 1000011010100000", 
+   Typeset`opts$$ = {
+   AppearanceElements -> {"Extrusion", "Warnings", "Assumptions", "Pods"}, 
+    Asynchronous -> All, 
+    Method -> {
+     "ExtrusionChosen" -> {"Result", "Result", 1, 1, "Output", "34464"}, 
+      "Formats" -> {"cell", "minput", "moutput", "msound", "dataformats"}}}, 
+   Typeset`elements$$ = {"Extrusion", "Warnings", "Assumptions", "Pods"}, 
+   Typeset`pod1$$ = XMLElement[
+   "pod", {"title" -> "Input interpretation", "scanner" -> "Identity", "id" -> 
+     "Input", "position" -> "100", "error" -> "false", "numsubpods" -> "1"}, {
+    
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             RowBox[{
+               StyleBox["convert ", 
+                GrayLevel[0.6]], 
+               RowBox[{
+                 SubscriptBox["\"1000011010100000\"", "2"]}], 
+               StyleBox[" to ", 
+                GrayLevel[0.6]], 
+               RowBox[{"base", "10"}]}], 
+             PolynomialForm[#, TraditionalOrder -> False]& ], 
+            TraditionalForm]], "Output", {}]}], 
+       XMLElement["dataformats", {}, {"plaintext"}]}]}], Typeset`pod2$$ = 
+   XMLElement[
+   "pod", {"title" -> "Result", "scanner" -> "Identity", "id" -> "Result", 
+     "position" -> "200", "error" -> "false", "numsubpods" -> "1", "primary" -> 
+     "true"}, {
+     XMLElement["subpod", {"title" -> "", "primary" -> "true"}, {
+       XMLElement["moutput", {}, {"34464"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox["34464", Identity], TraditionalForm]], "Output", {}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,moutput,computabledata,formatteddata,numberdata"}]}]}], 
+   Typeset`pod3$$ = XMLElement[
+   "pod", {"title" -> "Number name", "scanner" -> "Integer", "id" -> 
+     "NumberName", "position" -> "300", "error" -> "false", "numsubpods" -> 
+     "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox["\"34 thousand 464\"", TraditionalForm]], "Output", {}]}], 
+       
+       XMLElement[
+       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}], 
+     XMLElement["states", {"count" -> "1"}, {
+       XMLElement[
+       "state", {
+        "name" -> "Words only", "input" -> "NumberName__Words only"}, {}]}]}],
+    Typeset`pod4$$ = XMLElement[
+   "pod", {"title" -> "Number line", "scanner" -> "NumberLine", "id" -> 
+     "NumberLine", "position" -> "400", "error" -> "false", "numsubpods" -> 
+     "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TemplateBox[{
+              GraphicsBox[{
+                TagBox[
+                 TooltipBox[{
+                   PointSize[0.02], 
+                   RGBColor[0.24720000000000014`, 0.24, 0.6], 
+                   PointBox[{34464., 620.3519999999999}]}, "34464.`"], 
+                 Annotation[#, 34464., "Tooltip"]& ]}, ImageSize -> 300., 
+               Axes -> {True, False}, AxesStyle -> {}, 
+               PlotRange -> {{24124.8, 44803.2}, Automatic}, 
+               AxesOrigin -> {0, 0}], "\"\""}, "Labeled", 
+             DisplayFunction -> (FormBox[
+               GridBox[{{
+                  TagBox[
+                   ItemBox[
+                    PaneBox[
+                    TagBox[#, "SkipImageSizeLevel"], 
+                    Alignment -> {Center, Baseline}, BaselinePosition -> 
+                    Baseline], DefaultBaseStyle -> "Labeled"], 
+                   "SkipImageSizeLevel"]}, {
+                  ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+                GridBoxAlignment -> {
+                 "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                False, 
+                GridBoxItemSize -> {
+                 "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                BaselinePosition -> {1, 1}], TraditionalForm]& ), 
+             InterpretationFunction -> (RowBox[{
+                StyleBox[
+                "Labeled", FontFamily -> "Bitstream Vera Sans", 
+                 FontSize -> -1 + Inherited], "[", 
+                RowBox[{#, ",", #2, ",", 
+                  StyleBox[
+                  "Bottom", FontFamily -> "Bitstream Vera Sans", 
+                   FontSize -> -1 + Inherited]}], "]"}]& )], 
+            TraditionalForm]], "Output", {Background -> None}]}], 
+       XMLElement["dataformats", {}, {}]}]}], Typeset`aux1$$ = {
+   True, False, {False}, True}, Typeset`aux2$$ = {True, False, {False}, True},
+    Typeset`aux3$$ = {True, False, {False}, True}, Typeset`aux4$$ = {
+   True, False, {False}, True}, Typeset`asyncpods$$ = {}, 
+   Typeset`nonpods$$ = {}, Typeset`initdone$$ = True, Typeset`queryinfo$$ = {
+   "success" -> "true", "error" -> "false", "numpods" -> "4", "datatypes" -> 
+    "ConvertBase", "timedout" -> "", "timedoutpods" -> "", "timing" -> 
+    "0.723", "parsetiming" -> "0.243", "parsetimedout" -> "false", 
+    "recalculate" -> "", "id" -> 
+    "MSPa1131hb504ib7963c5b500003h42a260af6093ie", "host" -> 
+    "http://www5a.wolframalpha.com", "server" -> "26", "related" -> 
+    "http://www5a.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
+MSPa1141hb504ib7963c5b500004d8d2d2c8fac1gf4&s=26", "version" -> "2.6"}, 
+   Typeset`sessioninfo$$ = {
+   "TimeZone" -> 2., 
+    "Date" -> {2014, 9, 17, 14, 23, 29.51223`8.222577008103643}, "Line" -> 3, 
+    "SessionID" -> 28824678881873471433}, Typeset`showpods$$ = {1, 2, 3, 4}, 
+   Typeset`failedpods$$ = {}, Typeset`chosen$$ = {
+   "Result", "Result", 1, 1, "Output", "34464"}, Typeset`open$$ = False, 
+   Typeset`newq$$ = "bin to dec 1000011010100000"}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`FormatAlphaResults[
+      Dynamic[{
+       1, {Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$}, {
+        Typeset`aux1$$, Typeset`aux2$$, Typeset`aux3$$, Typeset`aux4$$}, 
+        Typeset`chosen$$, Typeset`open$$, Typeset`elements$$, Typeset`q$$, 
+        Typeset`opts$$, Typeset`nonpods$$, Typeset`queryinfo$$, 
+        Typeset`sessioninfo$$, Typeset`showpods$$, Typeset`failedpods$$, 
+        Typeset`newq$$}]], StandardForm],
+    ImageSizeCache->{196., {45., 16.}},
+    TrackedSymbols:>{Typeset`showpods$$, Typeset`failedpods$$}],
+   DynamicModuleValues:>{},
+   Initialization:>If[
+     Not[Typeset`initdone$$], Null; 
+     WolframAlphaClient`Private`doAsyncUpdates[
+       Hold[{Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$}],
+        Typeset`asyncpods$$, 
+       Dynamic[Typeset`failedpods$$]]; Typeset`asyncpods$$ = {}; 
+     Typeset`initdone$$ = True],
+   SynchronousInitialization->False],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "WolframAlphaShortInput"],
+
+Cell[BoxData["34464"], "Output",
+ CellChangeTimes->{3.6199454095256557`*^9, 3.619945970070486*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Gauss", "[", "n_", "]"}], ":=", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{"n", "*", 
+     RowBox[{"(", 
+      RowBox[{"n", "+", "1"}], ")"}]}], ")"}], "/", "2"}]}]], "Input",
+ CellChangeTimes->{{3.6199454119743433`*^9, 3.619945425036886*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Gauss", "[", "%3", "]"}]], "Input",
+ CellChangeTimes->{{3.619945426699874*^9, 3.619945431149007*^9}}],
+
+Cell[BoxData["5000050000"], "Output",
+ CellChangeTimes->{3.61994543155134*^9, 3.619945970111836*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BaseForm", "[", 
+  RowBox[{"%5", ",", "2"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6199454372581987`*^9, 3.619945452913765*^9}}],
+
+Cell[BoxData[
+ TagBox["Null",
+  BaseForm[#, 2]& ]], "Output",
+ CellChangeTimes->{3.6199454535574493`*^9, 3.619945970131629*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryResults",
+  DynamicModuleBox[{Typeset`q$$ = "bin to dec 0011010101010000", 
+   Typeset`opts$$ = {
+   AppearanceElements -> {"Extrusion", "Warnings", "Assumptions", "Pods"}, 
+    Asynchronous -> All, 
+    Method -> {
+     "ExtrusionChosen" -> {"Result", "Result", 1, 1, "Output", "13648"}, 
+      "Formats" -> {"cell", "minput", "moutput", "msound", "dataformats"}}}, 
+   Typeset`elements$$ = {"Extrusion", "Warnings", "Assumptions", "Pods"}, 
+   Typeset`pod1$$ = XMLElement[
+   "pod", {"title" -> "Input interpretation", "scanner" -> "Identity", "id" -> 
+     "Input", "position" -> "100", "error" -> "false", "numsubpods" -> "1"}, {
+    
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             RowBox[{
+               StyleBox["convert ", 
+                GrayLevel[0.6]], 
+               RowBox[{
+                 SubscriptBox["\"11010101010000\"", "2"]}], 
+               StyleBox[" to ", 
+                GrayLevel[0.6]], 
+               RowBox[{"base", "10"}]}], 
+             PolynomialForm[#, TraditionalOrder -> False]& ], 
+            TraditionalForm]], "Output", {}]}], 
+       XMLElement["dataformats", {}, {"plaintext"}]}]}], Typeset`pod2$$ = 
+   XMLElement[
+   "pod", {"title" -> "Result", "scanner" -> "Identity", "id" -> "Result", 
+     "position" -> "200", "error" -> "false", "numsubpods" -> "1", "primary" -> 
+     "true"}, {
+     XMLElement["subpod", {"title" -> "", "primary" -> "true"}, {
+       XMLElement["moutput", {}, {"13648"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox["13648", Identity], TraditionalForm]], "Output", {}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,moutput,computabledata,formatteddata,numberdata"}]}]}], 
+   Typeset`pod3$$ = XMLElement[
+   "pod", {"title" -> "Number name", "scanner" -> "Integer", "id" -> 
+     "NumberName", "position" -> "300", "error" -> "false", "numsubpods" -> 
+     "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox["\"13 thousand 648\"", TraditionalForm]], "Output", {}]}], 
+       
+       XMLElement[
+       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}], 
+     XMLElement["states", {"count" -> "1"}, {
+       XMLElement[
+       "state", {
+        "name" -> "Words only", "input" -> "NumberName__Words only"}, {}]}]}],
+    Typeset`pod4$$ = XMLElement[
+   "pod", {"title" -> "Number line", "scanner" -> "NumberLine", "id" -> 
+     "NumberLine", "position" -> "400", "error" -> "false", "numsubpods" -> 
+     "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TemplateBox[{
+              GraphicsBox[{
+                TagBox[
+                 TooltipBox[{
+                   PointSize[0.02], 
+                   RGBColor[0.24720000000000014`, 0.24, 0.6], 
+                   PointBox[{13648., 245.66400000000007`}]}, "13648.`"], 
+                 Annotation[#, 13648., "Tooltip"]& ]}, ImageSize -> 300., 
+               Axes -> {True, False}, AxesStyle -> {}, 
+               PlotRange -> {{9553.599999999999, 17742.4}, Automatic}, 
+               AxesOrigin -> {0, 0}], "\"\""}, "Labeled", 
+             DisplayFunction -> (FormBox[
+               GridBox[{{
+                  TagBox[
+                   ItemBox[
+                    PaneBox[
+                    TagBox[#, "SkipImageSizeLevel"], 
+                    Alignment -> {Center, Baseline}, BaselinePosition -> 
+                    Baseline], DefaultBaseStyle -> "Labeled"], 
+                   "SkipImageSizeLevel"]}, {
+                  ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+                GridBoxAlignment -> {
+                 "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                False, 
+                GridBoxItemSize -> {
+                 "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                BaselinePosition -> {1, 1}], TraditionalForm]& ), 
+             InterpretationFunction -> (RowBox[{
+                StyleBox[
+                "Labeled", FontFamily -> "Bitstream Vera Sans", 
+                 FontSize -> -1 + Inherited], "[", 
+                RowBox[{#, ",", #2, ",", 
+                  StyleBox[
+                  "Bottom", FontFamily -> "Bitstream Vera Sans", 
+                   FontSize -> -1 + Inherited]}], "]"}]& )], 
+            TraditionalForm]], "Output", {Background -> None}]}], 
+       XMLElement["dataformats", {}, {}]}]}], Typeset`aux1$$ = {
+   True, False, {False}, True}, Typeset`aux2$$ = {True, False, {False}, True},
+    Typeset`aux3$$ = {True, False, {False}, True}, Typeset`aux4$$ = {
+   True, False, {False}, True}, Typeset`asyncpods$$ = {}, 
+   Typeset`nonpods$$ = {}, Typeset`initdone$$ = True, Typeset`queryinfo$$ = {
+   "success" -> "true", "error" -> "false", "numpods" -> "4", "datatypes" -> 
+    "ConvertBase", "timedout" -> "", "timedoutpods" -> "", "timing" -> 
+    "0.572", "parsetiming" -> "0.236", "parsetimedout" -> "false", 
+    "recalculate" -> "", "id" -> 
+    "MSPa2711gca8i99be0eb90c00001di3fb68h0bc579f", "host" -> 
+    "http://www5a.wolframalpha.com", "server" -> "18", "related" -> 
+    "http://www5a.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
+MSPa2721gca8i99be0eb90c00003i6c5dfe09cee939&s=18", "version" -> "2.6"}, 
+   Typeset`sessioninfo$$ = {
+   "TimeZone" -> 2., 
+    "Date" -> {2014, 9, 17, 14, 24, 37.004588`8.320830552312263}, "Line" -> 7,
+     "SessionID" -> 28824678881873471433}, Typeset`showpods$$ = {1, 2, 3, 4}, 
+   Typeset`failedpods$$ = {}, Typeset`chosen$$ = {
+   "Result", "Result", 1, 1, "Output", "13648"}, Typeset`open$$ = False, 
+   Typeset`newq$$ = "bin to dec 0011010101010000"}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`FormatAlphaResults[
+      Dynamic[{
+       1, {Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$}, {
+        Typeset`aux1$$, Typeset`aux2$$, Typeset`aux3$$, Typeset`aux4$$}, 
+        Typeset`chosen$$, Typeset`open$$, Typeset`elements$$, Typeset`q$$, 
+        Typeset`opts$$, Typeset`nonpods$$, Typeset`queryinfo$$, 
+        Typeset`sessioninfo$$, Typeset`showpods$$, Typeset`failedpods$$, 
+        Typeset`newq$$}]], StandardForm],
+    ImageSizeCache->{196., {45., 16.}},
+    TrackedSymbols:>{Typeset`showpods$$, Typeset`failedpods$$}],
+   DynamicModuleValues:>{},
+   Initialization:>If[
+     Not[Typeset`initdone$$], Null; 
+     WolframAlphaClient`Private`doAsyncUpdates[
+       Hold[{Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$}],
+        Typeset`asyncpods$$, 
+       Dynamic[Typeset`failedpods$$]]; Typeset`asyncpods$$ = {}; 
+     Typeset`initdone$$ = True],
+   SynchronousInitialization->False],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "WolframAlphaShortInput"],
+
+Cell[BoxData["13648"], "Output",
+ CellChangeTimes->{3.6199454770128593`*^9, 3.6199459701778717`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BaseForm", "[", 
+  RowBox[{"110", ",", "2"}], "]"}]], "Input",
+ CellChangeTimes->{{3.619945518020812*^9, 3.619945522253474*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  InterpretationBox[
+   SubscriptBox["\<\"1101110\"\>", "\<\"2\"\>"],
+   110,
+   Editable->False],
+  BaseForm[#, 2]& ]], "Output",
+ CellChangeTimes->{3.6199455226670227`*^9, 3.6199459702133827`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Gauss", "[", "100000", "]"}]], "Input",
+ CellChangeTimes->{{3.619945954427062*^9, 3.619945961436651*^9}}],
+
+Cell[BoxData["5000050000"], "Output",
+ CellChangeTimes->{{3.61994596223752*^9, 3.619945970242745*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BaseForm", "[", 
+  RowBox[{"%10", ",", "2"}], "]"}]], "Input",
+ CellChangeTimes->{{3.619945976818419*^9, 3.619945983399581*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  InterpretationBox[
+   SubscriptBox["\<\"100101010000001101011010101010000\"\>", "\<\"2\"\>"],
+   5000050000,
+   Editable->False],
+  BaseForm[#, 2]& ]], "Output",
+ CellChangeTimes->{3.619945985021627*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryResults",
+  DynamicModuleBox[{Typeset`q$$ = 
+   "bin to dec 00101010000001101011010101010000", Typeset`opts$$ = {
+   AppearanceElements -> {"Extrusion", "Warnings", "Assumptions", "Pods"}, 
+    Asynchronous -> All, 
+    Method -> {
+     "ExtrusionChosen" -> {"Result", "Result", 1, 1, "Output", "705082704"}, 
+      "Formats" -> {"cell", "minput", "moutput", "msound", "dataformats"}}}, 
+   Typeset`elements$$ = {"Extrusion", "Warnings", "Assumptions", "Pods"}, 
+   Typeset`pod1$$ = XMLElement[
+   "pod", {"title" -> "Input interpretation", "scanner" -> "Identity", "id" -> 
+     "Input", "position" -> "100", "error" -> "false", "numsubpods" -> "1"}, {
+    
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             RowBox[{
+               StyleBox["convert ", 
+                GrayLevel[0.6]], 
+               RowBox[{
+                 SubscriptBox["\"101010000001101011010101010000\"", "2"]}], 
+               StyleBox[" to ", 
+                GrayLevel[0.6]], 
+               RowBox[{"base", "10"}]}], 
+             PolynomialForm[#, TraditionalOrder -> False]& ], 
+            TraditionalForm]], "Output", {}]}], 
+       XMLElement["dataformats", {}, {"plaintext"}]}]}], Typeset`pod2$$ = 
+   XMLElement[
+   "pod", {"title" -> "Result", "scanner" -> "Identity", "id" -> "Result", 
+     "position" -> "200", "error" -> "false", "numsubpods" -> "1", "primary" -> 
+     "true"}, {
+     XMLElement["subpod", {"title" -> "", "primary" -> "true"}, {
+       XMLElement["moutput", {}, {"705082704"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox["705082704", Identity], TraditionalForm]], "Output", {}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,moutput,computabledata,formatteddata,numberdata"}]}]}], 
+   Typeset`pod3$$ = XMLElement[
+   "pod", {"title" -> "Scientific notation", "scanner" -> "Numeric", "id" -> 
+     "DecimalApproximation", "position" -> "300", "error" -> "false", 
+     "numsubpods" -> "1", "primary" -> "true"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             TagBox[
+              TagBox[
+               GridBox[{{
+                  StyleBox[
+                  "\"7.05082704 \[Times] \\!\\(TraditionalForm\\`10\\^\\\"8\\\
+\"\\)\"", LineIndent -> 0.54, StripOnInput -> False]}}, 
+                GridBoxAlignment -> {"Columns" -> {{Left}}}, DefaultBaseStyle -> 
+                "Column", 
+                GridBoxItemSize -> {
+                 "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+               "Column"], 
+              Global`TagBoxWrapper[
+              "StringBoxes" -> "7.05082704 \[Times] 10^8"]], Identity], 
+            TraditionalForm]], "Output", {}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,numberdata"}]}]}], 
+   Typeset`pod4$$ = XMLElement[
+   "pod", {"title" -> "Number name", "scanner" -> "Integer", "id" -> 
+     "NumberName", "position" -> "400", "error" -> "false", "numsubpods" -> 
+     "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox["\"705 million 82 thousand 704\"", TraditionalForm]], 
+          "Output", {}]}], 
+       XMLElement[
+       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}], 
+     XMLElement["states", {"count" -> "1"}, {
+       XMLElement[
+       "state", {
+        "name" -> "Words only", "input" -> "NumberName__Words only"}, {}]}]}],
+    Typeset`pod5$$ = XMLElement[
+   "pod", {"title" -> "Number line", "scanner" -> "NumberLine", "id" -> 
+     "NumberLine", "position" -> "500", "error" -> "false", "numsubpods" -> 
+     "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> True, "string" -> False}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TemplateBox[{
+              GraphicsBox[{
+                TagBox[
+                 TooltipBox[{
+                   PointSize[0.02], 
+                   RGBColor[0.24720000000000014`, 0.24, 0.6], 
+                   PointBox[{7.05082704*^8, 1.2691488672000002`*^7}]}, 
+                  "7.05082704`*^8"], 
+                 Annotation[#, 7.05082704*^8, "Tooltip"]& ]}, ImageSize -> 
+               300., Axes -> {True, False}, AxesStyle -> {}, 
+               AxesOrigin -> {0, 0}, 
+               PlotRange -> {{4.9355789279999995`*^8, 9.166075152*^8}, 
+                 Automatic}, Ticks -> {{{5.*^8, 
+                   FormBox[
+                    RowBox[{
+                    TagBox["500", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "500"]], 
+                    "\[ThickSpace]", 
+                    TagBox[
+                    StyleBox[
+                    "\"million\"", ShowStringCharacters -> False, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, {FontFamily :> $CellContext`$UnitFontFamily, FontSize -> 
+                    Smaller}, StripOnInput -> False], 1000000& , AutoDelete -> 
+                    True]}], TraditionalForm], {0.00625, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.25]}}, {7.*^8, 
+                   FormBox[
+                    RowBox[{
+                    TagBox["700", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "700"]], 
+                    "\[ThickSpace]", 
+                    TagBox[
+                    StyleBox[
+                    "\"million\"", ShowStringCharacters -> False, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, {FontFamily :> $CellContext`$UnitFontFamily, FontSize -> 
+                    Smaller}, StripOnInput -> False], 1000000& , AutoDelete -> 
+                    True]}], TraditionalForm], {0.00625, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.25]}}, {9.*^8, 
+                   FormBox[
+                    RowBox[{
+                    TagBox["900", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "900"]], 
+                    "\[ThickSpace]", 
+                    TagBox[
+                    StyleBox[
+                    "\"million\"", ShowStringCharacters -> False, 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, {FontFamily :> $CellContext`$UnitFontFamily, FontSize -> 
+                    Smaller}, StripOnInput -> False], 1000000& , AutoDelete -> 
+                    True]}], TraditionalForm], {0.00625, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.25]}}, {4.2*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {4.4*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {4.6*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {4.8*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {5.2*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {5.4*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {5.6*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {5.8*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {6.2*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {6.4*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {6.6*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {6.8*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {7.2*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {7.4*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {7.6*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {7.8*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {8.2*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {8.4*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {8.6*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {8.8*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {9.2*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {9.4*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {9.6*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {9.8*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {1.02*^9, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {6.*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}, {8.*^8, 
+                   FormBox["\"\"", TraditionalForm], {0.00375, 0.}, {
+                    GrayLevel[0.], 
+                    AbsoluteThickness[0.125]}}}, Automatic}], "\"\""}, 
+             "Labeled", DisplayFunction -> (FormBox[
+               GridBox[{{
+                  TagBox[
+                   ItemBox[
+                    PaneBox[
+                    TagBox[#, "SkipImageSizeLevel"], 
+                    Alignment -> {Center, Baseline}, BaselinePosition -> 
+                    Baseline], DefaultBaseStyle -> "Labeled"], 
+                   "SkipImageSizeLevel"]}, {
+                  ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+                GridBoxAlignment -> {
+                 "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                False, GridBoxItemSize -> {
+                 "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                BaselinePosition -> {1, 1}], TraditionalForm]& ), 
+             InterpretationFunction -> (RowBox[{
+                StyleBox[
+                "Labeled", FontFamily -> "Bitstream Vera Sans", 
+                 FontSize -> -1 + Inherited], "[", 
+                RowBox[{#, ",", #2, ",", 
+                  StyleBox[
+                  "Bottom", FontFamily -> "Bitstream Vera Sans", 
+                   FontSize -> -1 + Inherited]}], "]"}]& )], 
+            TraditionalForm]], "Output", {Background -> None}]}], 
+       XMLElement["dataformats", {}, {}]}]}], Typeset`pod6$$ = XMLElement[
+   "pod", {"title" -> "Number length", "scanner" -> "Integer", "id" -> 
+     "NumberLength", "position" -> "600", "error" -> "false", "numsubpods" -> 
+     "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["minput", {}, {"IntegerLength[705082704]"}], 
+       XMLElement["moutput", {}, {"9"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            StyleBox[
+             TemplateBox[{"9", "\" \"", 
+               StyleBox[
+               "\"decimal digits\"", 
+                LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 0, 
+                StripOnInput -> False]}, "RowDefault"], LineIndent -> 0], 
+            TraditionalForm]], "Output", {}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,minput,moutput,computabledata,formatteddata,numberdata"}]}]\
+}], Typeset`pod7$$ = XMLElement[
+   "pod", {"title" -> "Comparison", "scanner" -> "NumberComparison", "id" -> 
+     "Comparison", "position" -> "700", "error" -> "false", "numsubpods" -> 
+     "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TemplateBox[{"\"\[TildeTilde] \"", 
+              TemplateBox[{"\"\"", "0", "\".\"", "1", "1"}, "RowDefault"], 
+              "\" \"", 
+              StyleBox["\"\[Times]\"", 
+               GrayLevel[0.3], FontSize -> 10.219999999999999`, StripOnInput -> 
+               False], "\"\[MediumSpace]\"", 
+              StyleBox[
+              "\"the number of people alive today\"", 
+               LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 0, {
+               FontFamily :> Global`$UnitFontFamily, FontSize -> Smaller}, 
+               StripOnInput -> False], "\" \"", 
+              StyleBox[
+               RowBox[{"\"(\"", "\[NoBreak]", 
+                 TemplateBox[{"\"\[TildeTilde]\[ThinSpace]\"", 
+                   TemplateBox[{
+                    TemplateBox[{"\"\"", "6", "\".\"", "5"}, "RowDefault"], 
+                    "\"\[InvisibleSpace]\"", 
+                    "\"\[VeryThinSpace]\[Times]\[VeryThinSpace]\"", 
+                    "\"\[InvisibleSpace]\"", 
+                    
+                    TemplateBox[{"\"10\"", "9"}, "Superscript", SyntaxForm -> 
+                    SuperscriptBox]}, "RowDefault"]}, "RowDefault"], 
+                 "\[NoBreak]", "\")\""}], {
+               FontFamily -> "Verdana", FontSize -> 10, 
+                GrayLevel[0.5], LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                LineIndent -> 0}, StripOnInput -> False]}, "RowDefault"], 
+            TraditionalForm]], "Output", {}]}], 
+       XMLElement[
+       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}]}], 
+   Typeset`aux1$$ = {True, False, {False}, True}, Typeset`aux2$$ = {
+   True, False, {False}, True}, Typeset`aux3$$ = {True, False, {False}, True},
+    Typeset`aux4$$ = {True, False, {False}, True}, Typeset`aux5$$ = {
+   True, False, {False}, True}, Typeset`aux6$$ = {True, False, {False}, True},
+    Typeset`aux7$$ = {True, False, {False}, True}, Typeset`asyncpods$$ = {}, 
+   Typeset`nonpods$$ = {}, Typeset`initdone$$ = True, Typeset`queryinfo$$ = {
+   "success" -> "true", "error" -> "false", "numpods" -> "7", "datatypes" -> 
+    "ConvertBase", "timedout" -> "", "timedoutpods" -> "", "timing" -> 
+    "0.756", "parsetiming" -> "0.241", "parsetimedout" -> "false", 
+    "recalculate" -> "", "id" -> 
+    "MSPa3311222bch8f5beid24300003dhhhgcg643bah4f", "host" -> 
+    "http://www3.wolframalpha.com", "server" -> "37", "related" -> 
+    "http://www3.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
+MSPa3312222bch8f5beid2430000219602ied2bce224&s=37", "version" -> "2.6"}, 
+   Typeset`sessioninfo$$ = {
+   "TimeZone" -> 2., 
+    "Date" -> {2014, 9, 17, 14, 33, 57.82145`8.514663951973318}, "Line" -> 12,
+     "SessionID" -> 28824680965937874662}, Typeset`showpods$$ = {1, 2, 3, 4, 
+   5, 6, 7}, Typeset`failedpods$$ = {}, Typeset`chosen$$ = {
+   "Result", "Result", 1, 1, "Output", "705082704"}, Typeset`open$$ = False, 
+   Typeset`newq$$ = "bin to dec 00101010000001101011010101010000"}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`FormatAlphaResults[
+      Dynamic[{
+       1, {Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$, 
+         Typeset`pod5$$, Typeset`pod6$$, Typeset`pod7$$}, {
+        Typeset`aux1$$, Typeset`aux2$$, Typeset`aux3$$, Typeset`aux4$$, 
+         Typeset`aux5$$, Typeset`aux6$$, Typeset`aux7$$}, Typeset`chosen$$, 
+        Typeset`open$$, Typeset`elements$$, Typeset`q$$, Typeset`opts$$, 
+        Typeset`nonpods$$, Typeset`queryinfo$$, Typeset`sessioninfo$$, 
+        Typeset`showpods$$, Typeset`failedpods$$, Typeset`newq$$}]], 
+     StandardForm],
+    ImageSizeCache->{303., {45., 16.}},
+    TrackedSymbols:>{Typeset`showpods$$, Typeset`failedpods$$}],
+   DynamicModuleValues:>{},
+   Initialization:>If[
+     Not[Typeset`initdone$$], Null; 
+     WolframAlphaClient`Private`doAsyncUpdates[
+       Hold[{
+        Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$, 
+         Typeset`pod5$$, Typeset`pod6$$, Typeset`pod7$$}], 
+       Typeset`asyncpods$$, 
+       Dynamic[Typeset`failedpods$$]]; Typeset`asyncpods$$ = {}; 
+     Typeset`initdone$$ = True],
+   SynchronousInitialization->False],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "WolframAlphaShortInput"],
+
+Cell[BoxData["705082704"], "Output",
+ CellChangeTimes->{3.619946037835156*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Gauss", "[", "5", "]"}]], "Input",
+ CellChangeTimes->{{3.619946076177494*^9, 3.6199460792880783`*^9}}],
+
+Cell[BoxData["15"], "Output",
+ CellChangeTimes->{3.619946079766231*^9}]
+}, Open  ]]
+},
+WindowSize->{808, 902},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"10.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (June 27, \
+2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 155, 3, 28, "Input"],
+Cell[738, 27, 262, 8, 39, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1037, 40, 7161, 149, 78, "WolframAlphaShortInput"],
+Cell[8201, 191, 98, 1, 28, "Output"]
+}, Open  ]],
+Cell[8314, 195, 276, 8, 28, "Input"],
+Cell[CellGroupData[{
+Cell[8615, 207, 125, 2, 28, "Input"],
+Cell[8743, 211, 100, 1, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8880, 217, 153, 3, 28, "Input"],
+Cell[9036, 222, 127, 3, 39, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9200, 230, 7172, 149, 78, "WolframAlphaShortInput"],
+Cell[16375, 381, 100, 1, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16512, 387, 152, 3, 28, "Input"],
+Cell[16667, 392, 221, 7, 39, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16925, 404, 129, 2, 28, "Input"],
+Cell[17057, 408, 102, 1, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17196, 414, 152, 3, 28, "Input"],
+Cell[17351, 419, 228, 7, 39, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17616, 431, 18314, 364, 78, "WolframAlphaShortInput"],
+Cell[35933, 797, 78, 1, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36048, 803, 126, 2, 28, "Input"],
+Cell[36177, 807, 71, 1, 28, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 extern unsigned long fib(unsigned long);
 
 int main(int argc, char const *argv[])
@@ -9,4 +10,3 @@ int main(int argc, char const *argv[])
 	}
 	return 0;
 }
-

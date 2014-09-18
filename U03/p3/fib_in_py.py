@@ -12,5 +12,3 @@ def fib(i):
 
 for i in range(20):
 	print fib(i)
-
-# print fib(100000)
