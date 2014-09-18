@@ -1,0 +1,16 @@
+(a) Auf Grund der begrenzten Anzahl verfügbarer Bits pro Wort muss ein Kompromiss zwischen der Größe der Mantisse und des Exponenten gefunden werden. Was bedeutet dies im Grunde? Nennen Sie zur Verdeutlichung jeweils einen Fall in denen eine der beiden Komponenten möglichst groß/klein gewählt werden sollte.
+
+Der Exponent enthält die Information über den Exponenten. Damit beschränkt die Größe des Exponenten die Größe der Zahlen mit denen wir rechnen können nach oben. Die Mantisse beschränkt die Genauigkeit unserer Berechnung.
+
+Angenommen wir haben 1-Bit Vorzeichen, 3-Bit Exponenten in Zweier-Komplement-Darstellung und 4-Bit Mantissen. Man hat dann ab 16 einen Overflow des Exponenten:
+(15)_10_+(1)_10_ = (0.111*2^3)_2_+(0.1*2^1)_2_
+= (0|011|1110)_i_ +(0|001|1000)_i_ = (0|100|1000)_i_
+= (1*2^(1/4))_2_ = (0.25)_10_
+
+(b) Was muss beim Verwenden von Gleitkommazahlen stets bedacht werden? Nennen Sie mindestens drei verschiedene Punkte.
+
+Man darf sich beim rechenen mit Gleitkommazahlen nie darauf veralssen, dass die Ergebnisse exakt sind.
+
+Dadurch können mathematische Rechengesetze wie zum Beispiel das Distributivgesetz eventuell nicht mehr gelten. Man darf sich also auf Vergleiche von Gleitkommazahlen nicht verlassen sondern muss Abweichung von einem Epsilon betrachten.
+
+Außerdem muss man sich bewusst sein, dass die Zahlen deutlich mehr Speicherplatz benötigen als ähnlich große ganze Zahlen und man immer zwischen Größe und Genauigkeit abschätzen muss.
