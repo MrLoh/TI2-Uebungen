@@ -1,0 +1,127 @@
+--------------------------
+DBNZ R, lbl =
+    DEC R
+    CMP R, 0
+    JNE lbl
+--------------------------
+
+CLEAR R =
+    loop:
+        DBNZ R, loop
+<!--
+CLEAR 10
+R
+10
+01
+00
+-->
+
+DEC R =
+    DBNZ R, end
+    end:
+
+INC R =
+    CLEAR A
+    DEC A
+    loop:
+        DEC R
+        DBNZ A, loop
+<!--
+INC 1
+001 000
+001 111
+000 110
+111 101
+110 100
+101 011
+100 010
+011 001
+010 000
+
+INC -2:
+R   A
+10  00
+10  11
+01  10
+00  01
+11  00
+-->
+
+GOTO label =
+    CLEAR A
+    INC A
+    DBNZ A, label
+
+NEG R, B =
+    CLEAR S
+    loop:
+        DEC S
+        DBNZ R, loop
+<!--
+NEG 2
+R   S
+010 000
+001 111
+000 110
+-->
+
+SUB R, S =
+    INC R
+    DBNZ R, end
+    loop:
+        DEC S
+        DBNZ R, loop
+    end:
+<!--
+SUB 1, -1
+R   S
+01  11
+10  11
+01  11
+00  10
+
+SUB -1, 1
+R   S
+111 001
+000 001
+111 001
+110 000
+101 111
+100 110
+011 101
+010 100
+001 011
+000 010
+
+SUB 011, 001
+R   S
+011 001
+100 001
+011 001
+010 000
+001 111
+000 110
+-->
+
+ADD R, S =
+    NEG R, B
+    SUB B, S
+
+
+MOV A, B =
+    CLEAR B
+    ADD A, B
+
+
+COPY A, B =
+    MOV A, R
+    CLEAR A
+    CLEAR B
+    INC R
+    DBNZ R, end
+    loop:
+        INC A
+        INC B
+        DBNZ R, loop
+    end:
+

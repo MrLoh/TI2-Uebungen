@@ -1,0 +1,14 @@
+(a) Wieviele Stellen braucht man im Binärsystem mindestens, damit die Zahl 32 bei Verwendung des 2-Komplements, bzw. der B+V-Darstellung darstellbar ist (Begründung)?
+
+Die Zahl 32 = 2^5 hat im 2-Komplement dieselbe Darstellung wie in der B+V-Darstellung, nämlich 010000. Dabei wird im ersten Fall die Null gebraucht um zu signalisieren, dass die Zahl als positive Zahl gerechnet werden soll, würde sie fehlen, würde die Zahl -32 dargestellt werden. Im zweiten Fall stellt die erste Null genau das Vorzeichen dar, ohne diese wäre die Zahl -0.
+
+
+(b) Berechnen Sie 49_10_−73_10_ unter Verwendung des 2-Komplements, bzw. der B+V-Darstellung und der Addition im Binärsystem bei 9 Stellen. Rechnen Sie das Ergebnis ins Dezimalsy- stem zurück.
+
+Die Zahlen 49 = 32 + 16 + 1 und 73 = 64 + 8 + 1 haben die 9-Bit Binärdarstellung 000110001 und 001001001, sowohl im 2-Komplement, als auch in der B+V-Darstellung. Die Zahl -73 ist dann 110110111 im 2-Komplement und 101001001 in der B+V Darstellung. Im 2-Komplement ergibt die bitweise Adition dann 111101000, was wir durch invertierung und addition von 1 in 000101000 umwandeln und somit die Dezimalzahl -24 erhalten. In der B+V-Darstellung müssen wir zunächst die beiden Zahlen vertauschen und erhalten so das negative Vorzeichen, dann subtrahieren wir bitweise und landen bei 100101000, was wiederum -24 entspricht.
+
+
+(c) Nennen Sie zwei Vorteile des 2-Komplements gegenüber der B+V-Darstellung.
+
+In der 2-Komplement Darellung gibt es nur eine 0 und man braucht keine Operation fürs Subtrahieren, sondern nur eine fürs Addieren und Negieren.
+
