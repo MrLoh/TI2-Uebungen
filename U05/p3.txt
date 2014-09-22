@@ -69,7 +69,7 @@ SUB R, S =
     loop:
         DEC S
         DBNZ R, loop
-    end:
+
 <!--
 SUB 1, -1
 R   S
@@ -115,11 +115,7 @@ COPY A, B =
     MOV A, R
     CLEAR A
     CLEAR B
-    INC R
-    DBNZ R, end
     loop:
         INC A
         INC B
         DBNZ R, loop
-    end:
-
