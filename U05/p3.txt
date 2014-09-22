@@ -66,8 +66,6 @@ R   S
 -->
 
 SUB R, S =
-    INC R
-    DBNZ R, end
     loop:
         DEC S
         DBNZ R, loop
