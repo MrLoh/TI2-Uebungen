@@ -1,0 +1,24 @@
+(a) Was bedeutet Latenz bei einer Pipeline?
+
+Die Latenz ist die Zeit, die ein Befehl in der Pipeline braucht um alle Stufen zu durchlaufen.
+
+
+(b) Wie wird der Durchsatz einer Pipeline definiert?
+
+Der Durchsatz einer Pipeline ist die Anzahl der Befehle, die eine Pipeline pro Tackt ausgibt.
+
+
+
+(c) Was ist der Unterschied zwischen einer Sprungvorhersage mit 2-Bit Sättigungszähler und einer Sprungvorhersage mit 2-Bit Hysterese Schema?
+
+Bei 2-Bit Sättigungs Sprungvorhersage-Automaten geht man aus dem PT Zustand bei 'not taken' in den PN Zustand und umgekehrt aus PN bei 'taken' zu PT. Bei 2-Bit Hysterese Sprungvorhersage-Automaten geht man aus PT bei 'not taken' zu PSN und aus PN bei 'taken' zu PST.
+
+
+
+(d) Beschreiben Sie in jeweils einem Satz, welche Formen von Hazards beim Pipelining auftreten können.
+
+Strukturelle Hazards treten auf, wenn Befehle einander blockieren, weil sie dieselben Hardware zur Ausführung benötigen.
+
+Daten Hazards treten auf, wenn in der Operand-Fetch-Phase ein Befehl auf Informationen zugreifen will, die von einem anderen Befehl bearbeitet werden, welcher noch nicht die Write-Back-Phase abgeschlossen hat.
+
+Steuer Hazards treten auf, wenn bedingte Sprüge auftreten, da diese nicht ausgeführt werden können, bevor der Vergleichbefehl beendet wurde.

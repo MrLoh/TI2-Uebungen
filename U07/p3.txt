@@ -1,0 +1,16 @@
+Für 100 Sprünge ergeben sich:
+
+(a) p(Sprung) = 5%
+1: 5% daneben = 10 Fehlzyklen
+2: 95% daneben = 190 Fehlzyklen
+3: 10% daneben = 20 Fehlzyklen
+
+(b) p(Sprung) = 95%
+1: 95% daneben = 190 Fehlzyklen
+2: 5% daneben = 10 Fehlzyklen
+3: 10% daneben = 20 Fehlzyklen
+
+(c) p(Sprung) = 70%
+1: 70% daneben = 140 Fehlzyklen
+2: 30% daneben = 60 Fehlzyklen
+3: 10% daneben = 20 Fehlzyklen

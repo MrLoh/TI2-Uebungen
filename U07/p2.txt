@@ -1,0 +1,35 @@
+(a)
+ADD R2,R3,R1    IF|ID|OF|EX|WB
+ADD R1,R5,R4      |IF|ID|OF|EX|WB
+
+Fehler: OF von R1, vor WB von R1
+
+(b)
+ADD R2,R3,R1    IF|ID|OF|EX|WB
+NOP               |IF|ID|OF|EX|WB
+ADD R1,R5,R4         |IF|ID|OF|EX|WB
+
+Fehler: OF von R1, immernoch vor WB von R1
+
+(c)
+ADD X,Y,Z   IF|ID|OF|EX|WB
+NOP           |IF|ID|OF|EX|WB
+NOP              |IF|ID|OF|EX|WB
+ADD Z,B,A           |IF|ID|OF|EX|WB
+           |  |  |  |  |  |  |  |  |
+8 Takte
+
+(d)
+MUL X,Y,Z   IF|ID|OF|EX|WB
+NOP           |IF|ID|OF|EX|WB
+NOP              |IF|ID|OF|EX|WB
+MUL Z,B,A           |IF|ID|OF|EX|WB
+NOP                    |IF|ID|OF|EX|WB
+NOP                       |IF|ID|OF|EX|WB
+ADD Z,B,D                    |IF|ID|OF|EX|WB
+           |  |  |  |  |  |  |  |  |  |  |  |
+11 Takte
+
+(e)
+Programmbefehle i, Beschleunigung: i*5/(i+4) -lim-> 5
+Man braucht nur ein fünftel der Zeit mit der Pipeline
