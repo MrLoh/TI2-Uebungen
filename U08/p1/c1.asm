@@ -7,6 +7,6 @@ for:
 
         ...
 
-    INC RCX
+    INC RCX ;i++
     JMP for
 end:

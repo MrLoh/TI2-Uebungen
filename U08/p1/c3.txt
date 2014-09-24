@@ -4,4 +4,35 @@ for i=1:n {
         ...
     }
 }
+
+MOV RCX, 1
+for:
+    CMP RCX, n
+    JG end
+
+    CMP p, 1
+    JNE not_p ;if p do block
+
+        ...
+
+    not_p:
+
+    INC RCX ;i++
+    JMP for
+end:
 ```
+
+## 1-Bit: ##
+erste i-Vorhersage falsch und letzte mit 50% falsch (also 1.5 falsche)
+solange p-wahr ist, gibt es keine falschen Vorhersagen.
+sobald p-falsch ist, gibt es eine falsche p und eine falsche i Vorhersage.
+
+(0.5*n+(0.5*n-1.5))/(2*n) = (n-1.5)/(2*n)
+-lim-> 50%
+
+## 2-Bit: ##
+erste i-Vorhersage falsch.
+angenommen p ist beim ersten mal wahr (ansonsten wird die Rechnung zu kompliziert). Dann ist die erste p-Vorhersage falsch. Danach ist die i-Vorhersage immer richtig und die p-Vorhersage mit 50% richig. Die letzte i-Vorhersage ist falsch.
+
+(n-2+0.5*n)/(2*n) = (1.5*n-2)/(2*n)
+-lim-> 75% richtig

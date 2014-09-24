@@ -4,4 +4,40 @@ for i=1:n {
         ...
     }
 }
+
+MOV RCX, 1 ;i=1
+for1:
+    CMP RCX, n
+    JG end1 ;end if i>n
+
+    MOV RDX, 1 ;j=1
+    for2:
+        CMP RDX, n
+        JG end2 ;end if j>n
+
+            ...
+
+        INC RDX
+        JMP for2 ;j++
+    end2:
+
+    INC RCX ;i++
+    JMP for1
+end1:
+
 ```
+
+## 1-Bit: ##
+jede i-Vorhersage bis auf die letzte falsch (1 von n richtig)
+jede letzte j-Vorhersage falsch (n*(n-1) von n^2 richtig)
+
+(n^2-n+1)/(n^2+n)
+-lim-> 100% richtig
+
+
+## 2-Bit ##
+erste und letzte i-Vorhersage falsch, sonst richtig (n-2 von n richtig)
+aller erste j-Vorhersage und jede letzte j-Vorhersage falsch und sonst richtig (n*(n-1)-1 von n^2 richtig)
+
+(n^2-3)/(n^2+n)
+-lim-> 100% richtig

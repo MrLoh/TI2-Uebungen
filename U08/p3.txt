@@ -1,0 +1,7 @@
+(a)
+100%/(10%+90%/32) = 100/12,81 = 7,8
+Bei 32 Prozessoren kann das Programm 7,8 mal so schnell ausgeführt werden.
+
+(b)
+100%/(10%+90%/n) -n-to-infty-> 100/10 = 10
+Das Programm kann bei unendlich vielen Prozessoren maximal 10 mal so schnell ausgeführt werden.

@@ -12,10 +12,10 @@ for1:
 
             ...
 
-        INC RDX
+        INC RDX ;j++
         JMP for2
     end2:
 
-    INC RCX
+    INC RCX ;i++
     JMP for1
 end1:

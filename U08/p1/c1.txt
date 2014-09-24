@@ -2,5 +2,29 @@
 for i=1:n {
     ...
 }
+
+MOV RCX, 1
+for:
+    CMP RCX, n
+    JG end
+
+        ...
+
+    INC RCX ;i++
+    JMP for
+end:
 ```
 
+## 1-Bit: ##
+beim ersten mal falsche Vorhersage
+beim letzten mal falsche Vorhersage
+
+also n-2 richtige und 2 falsche Vorhersagen
+-lim-> 100% richtig
+
+## 2-Bit: ##
+beim ersten und zweiten mal falsche Vorhersage
+beim letzten mal falsche Vorhersage
+
+also n-3 richtige und 3 falsche Vorhersagen
+-lim-> 100% richtig

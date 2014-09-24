@@ -1,0 +1,10 @@
+INC a       |IF|ID|OF|EX|WB|
+INC a       |  |  |  |IF|ID|OF|EX|WB|
+INC a       |  |  |  |  |  |  |IF|ID|OF|EX|WB|
+CMP x,0     |  |  |  |  |  |  |  |IF|ID|OF|EX|WB|
+CSHRE a,1   |  |  |  |  |  |  |  |  |IF|ID|OF|EX|WB|
+CINCE a     |  |  |  |  |  |  |  |  |  |  |IF|ID|OF|EX|WB|
+INC a       |  |  |  |  |  |  |  |  |  |  |  |  |IF|ID|OF|EX|WB|
+INC a       |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |IF|ID|OF|EX|WB|
+            |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+            20 Takte

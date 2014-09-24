@@ -12,6 +12,6 @@ for:
 
     not_p:
 
-    INC RCX
+    INC RCX ;i++
     JMP for
 end:
