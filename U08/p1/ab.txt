@@ -1,0 +1,6 @@
+(a)
+Bei 1-Bit Sprungvorhersage wird immer vorrausgesagt, dass sich der nächste Sprung so wie der letzte verhält.
+
+(b)
+Bei 2-Bit Sprungvorhersage wird zwischen schwacher und starker Vorhersage unterschieden. Wenn die schwache vorhersage einmal richtig war, geht
+
