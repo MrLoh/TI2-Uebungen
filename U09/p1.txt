@@ -1,0 +1,20 @@
+(a) Implizite Register-Adressierung mit Flag
+Ein Befehl bezieht sich implizit auf ein Register. Bsp.: `DIV _`
+
+(b) Unmittelbare Adressierung
+In einem Befehl wird ein Wert direkt angegeben. Bsp.: `MOV _, 1`
+
+(c) Direkte Speicheradressierung
+Die Speicheradresse wird direkt angegeben. Bsp.: `[100]`
+
+(d) Register-indirekte Speicheradressierung
+Die Speicheradresse liegt in einem Register. Bsp.: `[RDX]`
+
+(e) Register-relativ-indizierte Speicheradressierung
+Die Speicheradresse wird relativ zu einem Indexregister angegeben. Bsp.: `[RBX+4]`
+
+(f) Register-relativ-indirekt-indizierte, zweistufige Speicheradressierung
+Die Speicheradrese wird relativ zu einem Indexregister angegeben, dabei liegt der Offset Wert auch in einem Register. Bsp.: `[RBX+4*RCX]`
+
+(g) Programmzähler-relativ-indirekte, zweistufige Speicheradressierung
+Die Speicheradresse wird relati zum Programmzähler (RIP) angegeben , dabei liegt der Offset Wert auch in einem Register. Bsp.: `[RIP+RCX]`

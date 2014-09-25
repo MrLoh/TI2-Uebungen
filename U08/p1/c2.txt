@@ -24,7 +24,6 @@ for1:
     INC RCX ;i++
     JMP for1
 end1:
-
 ```
 
 ## 1-Bit: ##
@@ -34,10 +33,21 @@ jede letzte j-Vorhersage falsch (n*(n-1) von n^2 richtig)
 (n^2-n+1)/(n^2+n)
 -lim-> 100% richtig
 
-
 ## 2-Bit ##
 erste und letzte i-Vorhersage falsch, sonst richtig (n-2 von n richtig)
 aller erste j-Vorhersage und jede letzte j-Vorhersage falsch und sonst richtig (n*(n-1)-1 von n^2 richtig)
 
 (n^2-3)/(n^2+n)
+-lim-> 100% richtig
+
+
+
+*2 Automaten*
+
+## 1-Bit: ##
+(n*(n-2)+n-2)/(n^2+n) = (n^2-n-2)/(n^2+n)
+-lim-> 100% richtig
+
+## 2-Bit ##
+(n*(n-3)+n-3)/(n^2+n) = (n^2-2n-3)/(n^2+n)
 -lim-> 100% richtig

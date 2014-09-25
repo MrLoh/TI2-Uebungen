@@ -1,12 +1,11 @@
-INC a       |IF|ID|OF|EX|WB|
-INC a       |  |  |  |IF|ID|OF|EX|WB|
-INC a       |  |  |  |  |  |  |IF|ID|OF|EX|WB|
-CMP x,0     |  |  |  |  |  |  |  |IF|ID|OF|EX|WB|
-JNE no_if   |  |  |  |  |  |  |  |  |IF|ID|OF|EX|WB|
-SHR a,1     |  |  |  |  |  |  |  |  |  |IF|ID|OF|EX|WB|
-INC a       |  |  |  |  |  |  |  |  |  |  |  |  |IF|ID|OF|EX|WB|
-no_if:      |  |  |  |  |  |  |  |  |  |  |  |  |  |PF|PF|PF|PF|PF|PF|PF|PF|PF|PF|
-INC a       |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |IF|ID|OF|EX|WB|
-INC a       |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |IF|ID|OF|EX|WB|
-            |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-             31 Takte
+A:  |F|D|O|E|W|
+B:  | | | |F|D|O|E|W|
+C:  | | | | | | |F|D|O|E|W|
+IF: | | | | | | | |F|D|O|E|W|
+E:  | | | | | | | | | |F|D|O|
+F:  | | | | | | | | | | | | |
+    | | | | | | | | | | | | |P|P|P|P|P|P|P|P|P|P|
+G:  | | | | | | | | | | | | | | | | | | | | | | |F|D|O|E|W|
+H:  | | | | | | | | | | | | | | | | | | | | | | | | | |F|D|O|E|W|
+
+30 Takte

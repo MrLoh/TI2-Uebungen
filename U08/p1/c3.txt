@@ -36,3 +36,14 @@ angenommen p ist beim ersten mal wahr (ansonsten wird die Rechnung zu komplizier
 
 (n-2+0.5*n)/(2*n) = (1.5*n-2)/(2*n)
 -lim-> 75% richtig
+
+
+
+*2 Automaten*
+## 1-Bit: ##
+(0.5*n+(0.5*n-1.5))/(2*n) = (n-1.5)/(2*n)
+-lim-> 50%
+
+## 2-Bit: ##
+(n-2+0.5*n)/(2*n) = (1.5*n-2)/(2*n)
+-lim-> 75% richtig

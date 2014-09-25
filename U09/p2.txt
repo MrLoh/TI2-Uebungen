@@ -1,0 +1,14 @@
+(a) Pseudoinstruction
+Pseudoinstruction sind Befehle, welche vom Assembler nicht in ausführbaren Maschienencode umgewandelt werden, aber trotzdem Teil der Assembler Sprache sind, wie `db` oder `equ`.
+
+(b) Linker
+Ein Linker ist ein Computerprogramm, welches kompilierten Code in ein ausführbares Programm umwandelt. Dabei linked de Linker durch Symbole spezifizierte Programmodule aus einer Library (des Betriebssystems), die für die Ausführung benötigt werden.
+
+(c) Dynamic Link Library
+Bei dynamischem Linken werden mache Symbole erst während der Programmausführung aufgelöst. Diese sind dann in der Dynamic Link Library (DLL) gespeichert, was den Vorteil hat, dass sie Separat geupdated werden können.
+
+(d) Macro
+Ein Macro ist ein Codeblock (mit Parametern), welcher an verschiedenen Stellen des Programms aufgerufen werden kann. Macros werden dabei beim assemblieren direkt an allen Stellen, an denen sie aufgerufen wurden, in den Bitecode einfefügt.
+
+(e) Koroutine
+Coroutinen sind eine Verallgemeinerung von Subroutinen, die es erlauben zwischen zwei Codeabschnitten hin und her zu springen. Sie erlauben also mehrere Entry- und Return-Stellen.

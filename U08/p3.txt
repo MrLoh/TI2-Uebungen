@@ -1,3 +1,12 @@
+Amdahlsches Gesetz:
+speedup = 1/(O+S+P/n)
+
+n: Anzahl Prozessoren
+O: Overhead
+S: seriellen Anteil
+P: parallelisierbaren Anteil
+
+
 (a)
 100%/(10%+90%/32) = 100/12,81 = 7,8
 Bei 32 Prozessoren kann das Programm 7,8 mal so schnell ausgeführt werden.
