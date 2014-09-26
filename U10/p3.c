@@ -4,7 +4,7 @@
 
 #define SIZE 20
 
-// extern void sort_arr(int * arr, int size);
+extern void sort_arr(int * arr, int size);
 extern void inc_arr(int * arr, int size);
 
 void print_array(int * arr)
@@ -23,7 +23,8 @@ int main(int argc, char const *argv[])
 	for (int i = 0; i < SIZE; ++i)
 		arr[i] = rand() % 200 - 100;
 	print_array(arr);
-	inc_arr(arr, SIZE);
+	// inc_arr(arr, SIZE);
+	sort_arr(arr, SIZE);
 	print_array(arr);
 	return 0;
 }
