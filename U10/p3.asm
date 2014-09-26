@@ -24,7 +24,7 @@ _inc_arr:
     POP RDX
 
     RET
-end_inc_arr
+; end_inc_arr:
 
 
 
@@ -55,7 +55,7 @@ _sort_arr:
             CMP RDX, RSI
             JGE .end_for                ;end for if i >= size
 
-            if:
+            .if:
                 MOV EAX, [RDI+4*RDX]    ;a = arr[i]
                 MOV EBX, [RDI+4*RDX+4]  ;b = arr[i+1]
                 CMP EAX, EBX
@@ -81,4 +81,4 @@ _sort_arr:
     POP RCX
 
     RET
-end_sort_arr:
+; end_sort_arr:

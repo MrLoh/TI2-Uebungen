@@ -1,0 +1,10 @@
+Interrupts sind Befehle, die vom Prozessor auf jeden Fall bearbeitet werden müssen. Für jeden Interrupt gibt es ein spezifisches Programm eine sogenannate Interrupt Service Routine (ISR), was zu dessen Lösung ausgeführt wird.
+
+Die ISRs werden über einen sogenannten Interrupt-Vector Table addressiert.
+
+Beim Interrupt wird die Programmausführung gestoppt und de Pogramm Counter gespeichert. Die Interrupt Flag wird gesetzt eine ISR wird ausgefüht, die zumindest die Interrupt Flag löschen muss. Danach wird der PC wieder aufgenommen.
+
+Manche Interrupts sind maskierbar und können also vom System ignoriert werden.
+
+Maskierbare Interrupts können unterbrochen werden, andere nicht.
+

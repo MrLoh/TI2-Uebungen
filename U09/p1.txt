@@ -16,5 +16,8 @@ Die Speicheradresse wird relativ zu einem Indexregister angegeben. Bsp.: `[RBX+4
 (f) Register-relativ-indirekt-indizierte, zweistufige Speicheradressierung
 Die Speicheradrese wird relativ zu einem Indexregister angegeben, dabei liegt der Offset Wert auch in einem Register. Bsp.: `[RBX+4*RCX]`
 
+Arrays in C, der pointer zum nächsten Element liegt im Speicher
+
+
 (g) Programmzähler-relativ-indirekte, zweistufige Speicheradressierung
 Die Speicheradresse wird relati zum Programmzähler (RIP) angegeben , dabei liegt der Offset Wert auch in einem Register. Bsp.: `[RIP+RCX]`

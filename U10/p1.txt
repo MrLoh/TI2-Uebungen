@@ -1,0 +1,8 @@
+(a) Kann ein Interrupt einen anderen unterbrechen?
+
+Maskierbare Interrupts können unterbrochen werden, nicht aber Nichtmaskierbare.
+
+
+(b) Welche Varianten gibt es beim Interruptpolling und wie unterscheiden sich diese?
+
+Eine Polling Variante arbeitet mit sogenannter „fairer“ Prozessor-Zuteilung, das bedeutet alle Komponenten haben die selbe Chance ihre Unterbrechungsanforderungen bearbeitet zu bekommen. Die andere Variante arbeitet Prioritätsorientiert, das bedeutet Unterbrechungsanforderungen von Komponenten mit höherer Priorität werden immer zuerst bearbeitet.

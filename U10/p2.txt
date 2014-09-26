@@ -1,0 +1,26 @@
+(a) Welches Problem des Interrupt-Polling wird durch das Daisy-Chain-Verfahren gelöst?
+
+Die Priorisierung und Identifizierung von Interrupts, die beim Polling nur sehr zeitaufwändig durchgeführt werden kann, wird beim Daisy-Chain-Verfahren durch eine Zusatzhardware durchgeführt. Das bedeutet, man kann beim Daisy-Chain-Verfahren mehrere Geräte an einen Interrupt anschließen und die Priorisierung und Identifizierung wird direkt Hardwareseitig erledigt.
+
+
+(b) Beschreiben Sie den Ablauf einer Interrupt-Behandlung mit dem Daisy-Chain-Verfahren?
+
+Die Unterbrechungsanforderungen aller im Daisy-Chain-Verfahren angeschloßenen Komponenten werden über einen IRQ Bus an den Prozessor geleitet, der ein Interrupt-Flag setzt. Der Prozessor leitet bei gesetzten Interrupt-Enable-Flag einen Interrupt-Zyklus durch das Aktivieren von IACK (Interrupt ACKnowledge) ein. Die Komponenten sind in Reihe geschaltet an den IACK angeschlossen. Die erste Komponente, die ein Interrupt ausgelöst hat, verhindert die Weitergabe des Signals an die nachfolgenden Komonenten und öffnet seine Verbindung zur Datenleitung zum Prozessor, um den Interrupt-Zyklus abzuwickeln.
+
+
+(c) Erlaubt das Daisy-Chain-Verfahren eine ”faire“ Prozessorzuteilung?
+
+Nein. Das Daisy-Chain-Verfahren ist das Zusammenschalten von Interrupt-Quellen zu einer Prioritätskette, es arbeitet immer Prioritätsorientiert.
+
+
+(d)
+**Prozess:**                        **Dauer:**
+Interrupt geht bei CPU ein
+Interrupt Verarbeitung von CPU      330 ns
+Acknowledgement at Device 1         133 ns
+Acknowledgement at Device 2         133 ns
+Acknowledgement at Device 2         133 ns
+Datenbus Initialisierung            100 ns
+Datenbus Übertragung                100 ns
+Nachschlagen der Sprungadress        50 ns
+**Total**                         **970 ns**
