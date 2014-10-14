@@ -1,6 +1,6 @@
 (a) Kann ein Interrupt einen anderen unterbrechen?
 
-Maskierbare Interrupts können unterbrochen werden, nicht aber Nichtmaskierbare.
+Maskierbare Interrupts können unterbrochen werden, nicht aber Nichtmaskierbare.
 
 
 (b) Welche Varianten gibt es beim Interruptpolling und wie unterscheiden sich diese?
